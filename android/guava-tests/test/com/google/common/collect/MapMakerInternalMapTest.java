@@ -186,7 +186,7 @@ public class MapMakerInternalMapTest extends TestCase {
     for (int i = 0; i < map.segments.length; i++) {
       totalCapacity += map.segments[i].maxSegmentSize;
     }
-    assertTrue("totalCapcity=" + totalCapacity + ", maxSize=" + maxSize, totalCapacity <= maxSize);
+    assertTrue("totalCapacity=" + totalCapacity + ", maxSize=" + maxSize, totalCapacity <= maxSize);
   }
 
   public void testSetWeakKeys() {
